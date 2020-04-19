@@ -4,7 +4,7 @@ var bot = new TelegramBot(token,{ polling : true});
 
 bot.onText(/\/start/, function(msg, match){
     var UserId = msg.from.id;
-    bot.sendMessage(UserId, 'Hello from Misha');
+    bot.sendMessage(UserId, 'Hello from Mishka');
 });
 
 bot.onText(/\/getdate/, function(msg, match){
